@@ -48,7 +48,7 @@
                 <!-- <div class="w-full justify-start items-center flex flex-row gap-2">
                     <img src="/logo_white.png" alt="logo" class="w-8">
                 </div> -->
-                <h2 class="text-5xl font-semibold drop-shadow-xl shady-bro opacity-80">
+                <h2 class="text-5xl font-semibold drop-shadow-xl shady-bro opacity-100">
                     <TextGenerateEffect {words} />
                 </h2>
 
