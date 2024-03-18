@@ -15,6 +15,13 @@
 
 </script>
 
+<style>
+    ::selection {
+        background-color: #3BFFFF; /* Background color for selected text */
+        color: black; /* Text color for selected text */
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.0);
+    }
+</style>
 
 <div class="w-full h-full min-h-screen flex flex-col justify-center items-center relative text-white">
     {#if show}
@@ -58,7 +65,7 @@
                             Start here
                         </h2>
                     </Button> -->
-                    <Button href="/login" class="transition-all duration-300 ease-in-out rounded-full w-3/4 hover:w-full bg-transparent hover:bg-[#3BFFFF] hover:bg-opacity-20 border-2 border-[#3BFFFF] border-opacity-20 z-50">
+                    <Button href="/apply" class="transition-all duration-300 ease-in-out rounded-full w-3/4 hover:w-full bg-transparent hover:bg-[#3BFFFF] hover:bg-opacity-20 border-2 border-[#3BFFFF] border-opacity-20 z-50">
                         <h3 class="text-5xl sm:text-6xl md:text-7xl lg:text-9xl transition-all duration-700 ease-in-out font-extrabold uppercase w-full text-center text-white">
                             Start here*
                         </h3>

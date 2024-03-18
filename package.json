@@ -42,9 +42,13 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"ai": "^3.0.7",
 		"bits-ui": "^0.19.3",
 		"clsx": "^2.1.0",
 		"mode-watcher": "^0.2.2",
+		"openai": "^4.28.4",
+		"openai-edge": "^1.2.2",
+		"pocketbase": "^0.21.1",
 		"svelte-motion": "^0.12.2",
 		"svelte-radix": "^1.0.3",
 		"tailwind-merge": "^2.2.1",
